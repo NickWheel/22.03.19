@@ -77,13 +77,18 @@ nav li img {
 .top_info {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 30px;
     padding-bottom: 30px;
 
 }
 .top_info_left, .top_info_left ul {
     display: flex;
+    flex-wrap: wrap;
+
     text-transform: uppercase;
+}
+.top_info_left {
 }
 .top_info_left h1 {
     font-size: 25px;
