@@ -276,3 +276,102 @@ nav li img {
     font-size: 14px;
     color: #828282;
 }
+.balance_and_income_section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.balance_block {
+    width: 70%;
+    min-width: 872px;
+    
+}
+.income_block {
+    width: 25%;
+}
+
+.balance_and_income_section p {
+    font-weight: bold;
+    font-size: 14px;
+    color: #828282;
+}
+.balance_block_content {
+    border-radius: 10px;
+    min-width: 872px;
+    background-color: #fff;
+    height: 300px;
+}
+.balance_block_content button{
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 15px;
+    padding: 8px 16px;
+    color: #BDBDBD;
+    cursor: pointer;
+    border: none;
+    border: 2px solid #BDBDBD;
+   
+}
+.balance_block_content button:focus-within {
+    color: #162A71;
+    border-color: #162A71;
+}
+.buttons_block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+.buttons_left, .buttons_right {
+    display: flex;
+}
+.left_btn {
+    /* border-right: none; */
+    /* border-radius: 10px; */
+}
+.balance_legend {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px ;
+}
+.balance_legend div {
+    display: flex;
+    align-items: center;
+}
+.balance_legend div img {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.balance_legend h3 {
+    font-size: 12px;
+}
+.income_block_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.income_block_content {
+    background-color: #fff;
+    height: 300px;
+    border-radius: 10px;
+}
+.income_block_content .container {
+    padding-top: 25px;
+}
+.info_data {
+    margin-bottom: 18px;
+}
+.info_data div {
+    display: flex;
+    align-items: center;
+}
+.info_data div img {
+    margin-right: 8px;
+}
+.info_data h2 {
+    font-size: 18px;
+}
